@@ -11,7 +11,7 @@ I2CSoilMoistureSensor moist_sensor;
 
 /*
 
-This code works with Chrip sensor and Expressif ESP32-WROOM https://www.espressif.com/en/products/socs/esp32
+This code works with I2C sensor and Espressif ESP32-WROOM https://www.espressif.com/en/products/socs/esp32
 It will connect to Wifi, read the Chrip moisture sensor value and upload the data to InfluxDB Cloud
 
 It's recommended to check the moisture sensor calibration guide to understand how accurate the values are 
